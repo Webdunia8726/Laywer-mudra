@@ -765,9 +765,14 @@
 
 
 /* Ensure no horizontal scrolling */
-body {
+* {
     overflow-x: hidden;
 }
 
 
 
+.container {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
